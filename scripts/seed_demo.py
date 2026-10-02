@@ -22,7 +22,7 @@ from utils import registry  # noqa: E402
 from utils.helpers import determine_status, now_time_str, today_str  # noqa: E402
 
 DEMO = [
-    ("Aisha Khan", "CS-001", "10-A"),
+    ("Amarnath", "CS-001", "10-A"),
     ("Rohan Mehta", "CS-002", "10-A"),
     ("Priya Sharma", "CS-003", "10-B"),
 ]

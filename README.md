@@ -155,7 +155,7 @@ python scripts/test_face_engine.py
 # register (JSON base64 image)
 curl -X POST http://localhost:5000/api/register \
   -H "Content-Type: application/json" \
-  -d '{"name":"Aisha","roll_no":"CS-011","class_section":"10-A","image":"<data-url>"}'
+  -d '{"name":"Amarnath","roll_no":"CS-011","class_section":"10-A","image":"<data-url>"}'
 
 # list students
 curl http://localhost:5000/api/students
@@ -248,3 +248,10 @@ this is unnecessary — the full pack auto-downloads on first run.
   (e.g. 0.5) for stricter matching.
 - **`numpy` 2.x warnings** → this project pins `numpy==1.26.4` (InsightFace
   0.7.3 uses `np.int`, removed in numpy 2.0).
+
+---
+
+## 👤 Author
+
+**Amarnath**
+

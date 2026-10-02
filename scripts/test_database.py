@@ -28,7 +28,7 @@ def main() -> int:
         db.create_all()
 
         # 1) Insert dummy students
-        s1 = Student(name="Aisha Khan", roll_no="CS-001", class_section="10-A", photo_path="demo_a.jpg")
+        s1 = Student(name="Amarnath", roll_no="CS-001", class_section="10-A", photo_path="demo_a.jpg")
         s1.set_embedding(np.random.default_rng(1).standard_normal(512).astype(np.float32))
         s2 = Student(name="Rohan Mehta", roll_no="CS-002", class_section="10-A", photo_path="demo_b.jpg")
         s2.set_embedding(np.random.default_rng(2).standard_normal(512).astype(np.float32))

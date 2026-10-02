@@ -1,7 +1,8 @@
 """Smart Attendance System — Flask entry point.
+Developed by Amarnath.
 
 Run:
-    venv/bin/python app.py
+    python app.py
 """
 import os
 

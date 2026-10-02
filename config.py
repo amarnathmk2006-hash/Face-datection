@@ -1,4 +1,5 @@
 """Central configuration for the Smart Attendance System.
+Developed by Amarnath.
 
 All tunables can be overridden through environment variables / `.env`.
 """
@@ -19,7 +20,7 @@ def _get(key: str, default: str) -> str:
 
 
 class Config:
-    SECRET_KEY = _get("SECRET_KEY", "smart-attendance-dev-secret")
+    SECRET_KEY = _get("SECRET_KEY", "amarnath-attendance-secret")
 
     # ── Folders ────────────────────────────────────────────────────────
     UPLOAD_FOLDER = str(BASE_DIR / "static" / "uploads")
